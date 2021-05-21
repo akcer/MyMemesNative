@@ -12,7 +12,7 @@ const MemeCard = ({ meme }) => {
   return (
     <Card>
       <Text h3 style={{ textAlign: 'center' }}>
-        {meme.topTitle} FeaturedTitle XX
+        {meme.topTitle}
       </Text>
       {
         <Card.Image
@@ -29,13 +29,9 @@ const MemeCard = ({ meme }) => {
         />
       }
       <Text h4 style={{ textAlign: 'center' }}>
-        {meme.bottomTitle} bottomTitle XX
+        {meme.bottomTitle}
       </Text>
-      <Text style={{ textAlign: 'center' }}>
-        {meme.text} TeTextX XDDTex tXXDD TextX XDDTextXX DDTextXX DDTextX
-        XDDText XX DDTextXX DDTextXXD DText XXDDTe xtX XD DT ex tXXD DText XXDD
-        extXX DDxt XXDD
-      </Text>
+      <Text style={{ textAlign: 'center' }}>{meme.text}</Text>
       <Card.Divider />
       <View style={{ alignItems: 'center' }}>
         <Text>
