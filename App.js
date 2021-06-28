@@ -65,7 +65,7 @@ const App = () => {
       .catch((error) => {
         changeUser(null, null, null);
       });
-  }, []);
+  }, [user.username]);
 
   const changeUser = (username, avatar, role) => {
     setUser({
